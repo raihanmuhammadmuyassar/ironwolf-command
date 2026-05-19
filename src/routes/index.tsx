@@ -611,23 +611,22 @@ function Footer() {
           </div>
 
           <div>
-            <div className="font-mono-tac text-[10px] uppercase tracking-[0.3em] text-[color:var(--tactical-green)] mb-5">// Contact Operations</div>
-            <a href="mailto:ops@ironwolf2cm.io" className="group flex items-start gap-4 border border-border bg-card/30 p-5 hover:border-[color:var(--tactical-green)]/60 transition mb-3">
+            <div className="font-mono-tac text-[10px] uppercase tracking-[0.3em] text-[color:var(--tactical-green)] mb-5">// Contact Person</div>
+            <a href="mailto:leonardronny@gmail.com" className="group flex items-start gap-4 border border-border bg-card/30 p-5 hover:border-[color:var(--tactical-green)]/60 transition mb-3">
               <Mail className="h-5 w-5 text-[color:var(--tactical-green)] mt-0.5" />
               <div>
                 <div className="font-mono-tac text-[10px] text-muted-foreground tracking-widest mb-1">CONTACT PERSON</div>
-                <div className="font-bold uppercase tracking-wide text-sm">Cmdr. Operations Liaison</div>
-                <div className="text-xs text-muted-foreground mt-1">ops@ironwolf2cm.io · +1 (555) 010-2200</div>
+                <div className="font-bold uppercase tracking-wide text-sm">The Octagon, Singapore 069534</div>
+                <div className="text-xs text-muted-foreground mt-1">leonardronny@gmail.com (Ronny)</div>
               </div>
             </a>
-            <a href="mailto:careers@ironwolf2cm.io" className="group flex items-start gap-4 border border-border bg-card/30 p-5 hover:border-[color:var(--tactical-green)]/60 transition">
+            <div className="group flex items-start gap-4 border border-border bg-card/30 p-5 hover:border-[color:var(--tactical-green)]/60 transition">
               <Briefcase className="h-5 w-5 text-[color:var(--tactical-green)] mt-0.5" />
               <div>
                 <div className="font-mono-tac text-[10px] text-muted-foreground tracking-widest mb-1">JOB OPENING</div>
                 <div className="font-bold uppercase tracking-wide text-sm">Recruiting Cleared Operators</div>
-                <div className="text-xs text-muted-foreground mt-1">careers@ironwolf2cm.io</div>
               </div>
-            </a>
+            </div>
           </div>
 
           <div>
