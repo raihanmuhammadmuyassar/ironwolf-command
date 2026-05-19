@@ -66,7 +66,7 @@ function Nav() {
           <a href="#command" className="hover:text-foreground transition">Command</a>
         </nav>
         <a href="#contact" className="group inline-flex items-center gap-2 border border-[color:var(--tactical-green)]/50 bg-[color:var(--tactical-green)]/5 px-4 py-2 font-mono-tac text-xs uppercase tracking-[0.2em] text-[color:var(--tactical-green)] hover:bg-[color:var(--tactical-green)]/15 transition">
-          Request Access <ArrowRight className="h-3 w-3 group-hover:translate-x-1 transition" />
+          Contact Person <ArrowRight className="h-3 w-3 group-hover:translate-x-1 transition" />
         </a>
       </div>
     </header>
