@@ -66,7 +66,7 @@ function Nav() {
           <a href="#command" className="hover:text-foreground transition">Command</a>
         </nav>
         <a href="#contact" className="group inline-flex items-center gap-2 border border-[color:var(--tactical-green)]/50 bg-[color:var(--tactical-green)]/5 px-4 py-2 font-mono-tac text-xs uppercase tracking-[0.2em] text-[color:var(--tactical-green)] hover:bg-[color:var(--tactical-green)]/15 transition">
-          Request Access <ArrowRight className="h-3 w-3 group-hover:translate-x-1 transition" />
+          Contact Person <ArrowRight className="h-3 w-3 group-hover:translate-x-1 transition" />
         </a>
       </div>
     </header>
@@ -120,10 +120,10 @@ function Hero() {
 
           <div className="flex flex-wrap gap-4">
             <a href="#contact" className="group inline-flex items-center gap-3 bg-[color:var(--tactical-green)] text-[color:var(--primary-foreground)] px-7 py-4 font-mono-tac text-sm uppercase tracking-[0.2em] glow-green hover:bg-[color:var(--tactical-green)]/90 transition">
-              Request Access <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition" />
+              Contact Person <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition" />
             </a>
             <a href="#contact" className="group inline-flex items-center gap-3 border border-border bg-card/40 backdrop-blur px-7 py-4 font-mono-tac text-sm uppercase tracking-[0.2em] hover:border-[color:var(--tactical-cyan)] hover:text-[color:var(--tactical-cyan)] transition">
-              Contact Operations <Radio className="h-4 w-4" />
+              Job Opening <Radio className="h-4 w-4" />
             </a>
           </div>
         </div>
@@ -611,23 +611,22 @@ function Footer() {
           </div>
 
           <div>
-            <div className="font-mono-tac text-[10px] uppercase tracking-[0.3em] text-[color:var(--tactical-green)] mb-5">// Contact Operations</div>
-            <a href="mailto:ops@ironwolf2cm.io" className="group flex items-start gap-4 border border-border bg-card/30 p-5 hover:border-[color:var(--tactical-green)]/60 transition mb-3">
+            <div className="font-mono-tac text-[10px] uppercase tracking-[0.3em] text-[color:var(--tactical-green)] mb-5">// Contact Person</div>
+            <a href="mailto:leonardronny@gmail.com" className="group flex items-start gap-4 border border-border bg-card/30 p-5 hover:border-[color:var(--tactical-green)]/60 transition mb-3">
               <Mail className="h-5 w-5 text-[color:var(--tactical-green)] mt-0.5" />
               <div>
                 <div className="font-mono-tac text-[10px] text-muted-foreground tracking-widest mb-1">CONTACT PERSON</div>
-                <div className="font-bold uppercase tracking-wide text-sm">Cmdr. Operations Liaison</div>
-                <div className="text-xs text-muted-foreground mt-1">ops@ironwolf2cm.io · +1 (555) 010-2200</div>
+                <div className="font-bold uppercase tracking-wide text-sm">The Octagon, Singapore 069534</div>
+                <div className="text-xs text-muted-foreground mt-1">leonardronny@gmail.com (Ronny)</div>
               </div>
             </a>
-            <a href="mailto:careers@ironwolf2cm.io" className="group flex items-start gap-4 border border-border bg-card/30 p-5 hover:border-[color:var(--tactical-green)]/60 transition">
+            <div className="group flex items-start gap-4 border border-border bg-card/30 p-5 hover:border-[color:var(--tactical-green)]/60 transition">
               <Briefcase className="h-5 w-5 text-[color:var(--tactical-green)] mt-0.5" />
               <div>
                 <div className="font-mono-tac text-[10px] text-muted-foreground tracking-widest mb-1">JOB OPENING</div>
                 <div className="font-bold uppercase tracking-wide text-sm">Recruiting Cleared Operators</div>
-                <div className="text-xs text-muted-foreground mt-1">careers@ironwolf2cm.io</div>
               </div>
-            </a>
+            </div>
           </div>
 
           <div>
