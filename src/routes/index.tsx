@@ -120,10 +120,10 @@ function Hero() {
 
           <div className="flex flex-wrap gap-4">
             <a href="#contact" className="group inline-flex items-center gap-3 bg-[color:var(--tactical-green)] text-[color:var(--primary-foreground)] px-7 py-4 font-mono-tac text-sm uppercase tracking-[0.2em] glow-green hover:bg-[color:var(--tactical-green)]/90 transition">
-              Request Access <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition" />
+              Contact Person <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition" />
             </a>
             <a href="#contact" className="group inline-flex items-center gap-3 border border-border bg-card/40 backdrop-blur px-7 py-4 font-mono-tac text-sm uppercase tracking-[0.2em] hover:border-[color:var(--tactical-cyan)] hover:text-[color:var(--tactical-cyan)] transition">
-              Contact Operations <Radio className="h-4 w-4" />
+              Job Opening <Radio className="h-4 w-4" />
             </a>
           </div>
         </div>
