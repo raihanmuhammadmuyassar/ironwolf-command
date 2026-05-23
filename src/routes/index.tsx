@@ -52,10 +52,10 @@ function Nav() {
     <header className={`fixed top-0 inset-x-0 z-50 transition-all ${scrolled ? "bg-background/85 backdrop-blur-xl border-b border-border" : ""}`}>
       <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-3">
-          <img src={logo} alt="IronWolf 2CM logo" width={40} height={40} className="h-10 w-10 object-contain drop-shadow-[0_0_8px_oklch(0.78_0.17_165_/_0.5)]" />
+          <img src={logo} alt="IronWolf logo" width={40} height={40} className="h-10 w-10 object-contain drop-shadow-[0_0_8px_oklch(0.78_0.17_165_/_0.5)]" />
           <div className="flex flex-col leading-none">
             <span className="font-mono-tac text-[10px] text-[color:var(--tactical-green)] tracking-[0.3em]">IRONWOLF</span>
-            <span className="font-mono-tac text-[10px] text-muted-foreground tracking-[0.3em]">2CM · HUMINT</span>
+            <span className="font-mono-tac text-[10px] text-muted-foreground tracking-[0.3em]">HUMINT</span>
           </div>
         </a>
         <nav className="hidden md:flex items-center gap-7 font-mono-tac text-xs uppercase tracking-[0.2em] text-muted-foreground">
@@ -107,7 +107,7 @@ function Hero() {
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase leading-[0.95] mb-6">
-            IronWolf <span className="text-[color:var(--tactical-green)] drop-shadow-[0_0_25px_oklch(0.78_0.17_165_/_0.6)]">2CM</span>
+            <span className="text-[color:var(--tactical-green)] drop-shadow-[0_0_25px_oklch(0.78_0.17_165_/_0.6)]">IronWolf</span>
           </h1>
           <p className="text-xl md:text-2xl font-light tracking-wide text-foreground/90 mb-6 max-w-2xl">
             Real-Time <span className="text-[color:var(--tactical-cyan)]">HUMINT</span> Field Intelligence &amp; Tactical Surveillance
@@ -272,7 +272,7 @@ function Devices() {
       <div className="relative max-w-7xl mx-auto">
         <SectionLabel id="04">FIELD ASSETS</SectionLabel>
         <h2 className="text-4xl md:text-5xl font-black uppercase mb-4">Supported <span className="text-[color:var(--tactical-cyan)]">Field Devices</span></h2>
-        <p className="text-muted-foreground max-w-2xl mb-14">Any sensor. Any operator. Any theater. IronWolf 2CM integrates the full spectrum of field capture hardware into a single intelligence fabric.</p>
+        <p className="text-muted-foreground max-w-2xl mb-14">Any sensor. Any operator. Any theater. IronWolf integrates the full spectrum of field capture hardware into a single intelligence fabric.</p>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {devices.map(({ icon: Icon, t }, i) => (
@@ -426,7 +426,7 @@ function VVIP() {
             Protecting <span className="text-[color:var(--tactical-green)]">High-Value</span> Personnel <span className="text-foreground/80">in Real Time</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-xl">
-            Presidential details, executive protection teams and elite security units rely on IronWolf 2CM
+            Presidential details, executive protection teams and elite security units rely on IronWolf
             to maintain a continuous, encrypted intelligence link with command — every angle, every step,
             every second, captured and protected.
           </p>
@@ -598,9 +598,9 @@ function Footer() {
         <div className="grid lg:grid-cols-3 gap-12 mb-16">
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <img src={logo} alt="IronWolf 2CM" width={56} height={56} loading="lazy" className="h-14 w-14 object-contain drop-shadow-[0_0_10px_oklch(0.78_0.17_165_/_0.5)]" />
+              <img src={logo} alt="IronWolf" width={56} height={56} loading="lazy" className="h-14 w-14 object-contain drop-shadow-[0_0_10px_oklch(0.78_0.17_165_/_0.5)]" />
               <div>
-                <div className="font-black text-xl uppercase tracking-wider">IronWolf 2CM</div>
+                <div className="font-black text-xl uppercase tracking-wider">IronWolf</div>
                 <div className="font-mono-tac text-[10px] text-[color:var(--tactical-green)] tracking-[0.3em]">HUMINT FIELD INTELLIGENCE</div>
               </div>
             </div>
@@ -612,12 +612,12 @@ function Footer() {
 
           <div>
             <div className="font-mono-tac text-[10px] uppercase tracking-[0.3em] text-[color:var(--tactical-green)] mb-5">// Contact Person</div>
-            <a href="mailto:leonardronny@gmail.com" className="group flex items-start gap-4 border border-border bg-card/30 p-5 hover:border-[color:var(--tactical-green)]/60 transition mb-3">
+            <a href="mailto:humint@gmail.com" className="group flex items-start gap-4 border border-border bg-card/30 p-5 hover:border-[color:var(--tactical-green)]/60 transition mb-3">
               <Mail className="h-5 w-5 text-[color:var(--tactical-green)] mt-0.5" />
               <div>
                 <div className="font-mono-tac text-[10px] text-muted-foreground tracking-widest mb-1">CONTACT PERSON</div>
                 <div className="font-bold uppercase tracking-wide text-sm">The Octagon, Singapore 069534</div>
-                <div className="text-xs text-muted-foreground mt-1">leonardronny@gmail.com (Ronny)</div>
+                <div className="text-xs text-muted-foreground mt-1">humint@gmail.com</div>
               </div>
             </a>
             <div className="group flex items-start gap-4 border border-border bg-card/30 p-5 hover:border-[color:var(--tactical-green)]/60 transition">
@@ -642,7 +642,7 @@ function Footer() {
         </div>
 
         <div className="border-t border-border pt-6 flex flex-col md:flex-row items-center justify-between gap-3 font-mono-tac text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-          <div>© {new Date().getFullYear()} IRONWOLF 2CM · ALL RIGHTS RESERVED</div>
+          <div>© {new Date().getFullYear()} IRONWOLF · ALL RIGHTS RESERVED</div>
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-2"><span className="h-1.5 w-1.5 rounded-full bg-[color:var(--tactical-green)] animate-pulse-dot" />SECURE SESSION</span>
             <span>BUILD v2.41.0</span>
